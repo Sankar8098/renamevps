@@ -16,8 +16,8 @@ DB_URL = os.environ.get("DB_URL","mongodb+srv://Test:1234@cluster0.2bzsp0q.mongo
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
-START_PIC = os.environ.get("START_PIC", "https://graph.org/Rename-Bot-01-15")
+START_PIC = os.environ.get("START_PIC", "https://te.legra.ph/file/f450b9a99c435fbb75055.jpg")
 
-ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5821871362').split()]
 
 PORT = os.environ.get("PORT", "8080")
